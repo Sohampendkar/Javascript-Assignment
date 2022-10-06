@@ -1,0 +1,15 @@
+const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const even = array.filter((number) => {
+  return number % 2 === 0;
+});
+
+console.log(even);
+const array1=[1,2,3,4,5,6,7,8,9,10,15,17,19];
+const primeNumber=array1.filter(number=>{
+    for(let i=2;i<number;i++){
+        if(number%i===0)
+        return false;
+    }
+    return number!==1;
+});
+console.log(primeNumber);
