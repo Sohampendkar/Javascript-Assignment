@@ -1,0 +1,22 @@
+[
+    {
+        "name" : "Sandeep",
+        "ctid" : "ct14961",
+        "location" : "mumbai"
+    },
+    {
+        "name" : "Ashwitha",
+        "ctid" : "ct14912",
+        "location" : "bangalore"
+    },
+    {
+        "name" : "Bhushan",
+        "ctid" : "ct14919",
+        "location" : "Pune"
+    },
+    {
+        "name" : "Suksham",
+        "ctid" : "ct14968",
+        "location" : "Jammu"
+    }
+]
