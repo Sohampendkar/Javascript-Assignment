@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <script src="../jqueryUi/external/jquery/jquery.js"></script>
+    <script src="../jqueryUi/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="../jqueryUi/jquery-ui.min.css">
+
+    <style>
+        #htmContainer{
+            background-color: rgb(151, 151, 71);
+            width: 150px;
+            padding: 10px;
+        }
+
+        #dangerStyle{
+            background-color: red;
+            border-radius: 50%;
+            text-align: center;
+            border: 2px solid white;
+        
+            padding: 20px;
+        }
+
+        #jsContainer{
+            background-color: black;
+            color: white;
+        }
+
+        #idoButton{
+            margin-left: 100px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="jsContainer" title="Attention!!" style="display: none;">
+        <h1 id="dangerStyle">DANGER</h1>
+       <p > "Are you sure you want to do this?"</p>
+       <button id="idoButton" onclick="iDo()">Yes, I do</button>
+       <button>No</button>
+    </div>
+
+    <div id="htmContainer">
+         <h3>The dialog</h3>
+        <button id="btn" >Click Me!</button>
+    </div>
+    
+
+    <script src="/JQ/Q2.js"></script>
+</body>
+</html>

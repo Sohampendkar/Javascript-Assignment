@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment - 4</title>
+
+    <style>
+        body{
+            background-color: aqua;
+        }
+        .container{
+            border: 2px solid black;
+            background-color: bisque;
+            width: 40%;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>Posting Data Using JQuery AJAX POST Request</h3>
+        <label for="userid">User ID:</label><input type="text" id="userid"><br><br>
+        <label for="title">Title:</label><input type="text" id="title"><br><br>
+        <label for="completed">Completed ?</label><input type="checkbox" id="completed"><br><br>
+        <button>Post Details</button>
+
+    </div><br>
+
+    <div class="container" style="display: none;">
+        <div id="details"></div>
+    </div>
+
+
+<!-- JS and JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="../JS/Q4.js"></script>
+
+</body>
+</html>
